@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Unique Path Finder</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Unique Path Finder</h1>
+        <p class="lead">A robot is placed in the upper left corner a grid of squares, it can only move down or right.
+            Its goal: reach the opposite (lower right) corner.</p>
+        <hr class="my-4">
+        <p>Set the dimensions of the grid, and Unique Path Finder will tell you how many unique paths are available for
+            the robot to take.</p>
+
+            <div class="row">
+        <div id="mainrow" class="col-6">
+
+            <form action="/users" method="post">
+                <div style="margin:0;padding:0">
+                    <div>
+                        <label>Length:</label>
+                        <input class="input-sm " size="7" type="number" />
+
+                        <label>Height:</label>
+                        <input size="7" type="number" />
+                    </div>
+
+                    <p class="lead text-center">
+                        <a id="pathbutton" class="btn btn-lg" href="#" role="button">Find All Paths</a>
+                    </p>
+                </div>
+        </div>
+    </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+</body>
+
+</html>

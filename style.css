@@ -1,0 +1,40 @@
+.result {
+    font-size: 100px;
+    /* position: relative; */
+    /* bottom: 60px; */
+    /* margin: auto; */
+}
+
+.title {
+    text-shadow: 2px 2px #3D0F2B;
+}
+
+#mainrow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainCol {
+    display: flex;
+    align-items: center;
+}
+
+.body {
+    background-color: aquamarine;
+}
+
+.jumbotron {
+    background-image: linear-gradient(to bottom right,#7EBBA7, #435718);
+    color:#FFFDD0;
+}
+
+.btn {
+    color: #435718;
+    background-color: #FFFDD0;
+}
+
+#pathbutton {
+    position: relative;
+    top: 20px;
+}
