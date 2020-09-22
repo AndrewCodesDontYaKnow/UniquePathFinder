@@ -20,27 +20,38 @@
         <p>Set the dimensions of the grid, and Unique Path Finder will tell you how many unique paths are available for
             the robot to take.</p>
 
-            <div class="row">
-        <div id="mainrow" class="col-6">
+        <img class="float-up mb-10" src="./img/robotpic.png" alt="">
 
-            <form action="/users" method="post">
-                <div style="margin:0;padding:0">
-                    <div>
-                        <label>Length:</label>
-                        <input class="input-sm " size="7" type="number" />
+        <div class="row">
+            <div id="mainrow" class="col-6">
 
-                        <label>Height:</label>
-                        <input size="7" type="number" />
+                <form action="/users" method="post">
+                    <div style="margin:0;padding:0">
+                        <div>
+                            <label>Length:</label>
+                            <input id="m" class="input-sm" size="7" type="number" />
+
+                            <label>Height:</label>
+                            <input id="n" size="7" type="number" />
+                        </div>
+
+                        <p class="lead text-center">
+                            <a id="pathbutton" class="btn btn-lg" href="#" role="button">Find All Paths</a>
+                        </p>
                     </div>
+                </form>
+            </div>
 
-                    <p class="lead text-center">
-                        <a id="pathbutton" class="btn btn-lg" href="#" role="button">Find All Paths</a>
-                    </p>
+            <div class="col-6" style="text-align:center">
+                <div class="">
+                    <h3>Result:</h3>
+                    <h2 class="result"></h2>
                 </div>
+            </div>
+
         </div>
-    </div>
 
-
+        
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
